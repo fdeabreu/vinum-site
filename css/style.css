@@ -160,6 +160,33 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.5rem); }
     color: var(--color-primary);
 }
 
+/* Header Social Icons */
+.header-social {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: var(--color-text-light);
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.header-social a:hover {
+    color: var(--color-primary);
+}
+
+.header-social svg {
+    width: 18px;
+    height: 18px;
+}
+
 .lang-toggle {
     display: flex;
     align-items: center;
@@ -827,7 +854,11 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.5rem); }
     .nav {
         display: none;
     }
-    
+
+    .header-social {
+        display: none;
+    }
+
     .mobile-menu-btn {
         display: flex;
     }
