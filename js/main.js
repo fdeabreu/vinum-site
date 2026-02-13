@@ -108,6 +108,7 @@ function initSmoothScroll() {
                 
                 // Close mobile menu if open
                 document.body.classList.remove('menu-open');
+                document.querySelector('.nav').classList.remove('active');
             }
         });
     });
