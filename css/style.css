@@ -914,13 +914,6 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.5rem); }
     transition: opacity 0.2s ease;
 }
 
-html[data-lang="en"] .lang-toggle .lang-flag::before {
-    content: "🇪🇸";
-}
-
-html[data-lang="en"] .lang-toggle .lang-text {
-    content: "ES";
-}
 
 /* Product card clickable overlay */
 .product-card {
